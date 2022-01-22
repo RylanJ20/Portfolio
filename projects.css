@@ -1,0 +1,167 @@
+@font-face {
+  font-family: PressStart2P-Regular;
+  src: url(/fonts/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(/fonts/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #033863;
+  background-size: cover;
+  color: #14b8a2;
+}
+
+.stick {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #033863;
+  color: #14b8a2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: PressStart2P-Regular;
+  box-shadow: 0 0 10px 5px #ff0022;
+  z-index: 1;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #14b8a2;
+}
+
+.navbar a:hover {
+  color: #ff0022;
+}
+
+.primary-icon {
+  height: 80px;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+  margin: 20px 25px;
+  border-radius: 10px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-line {
+  width: 20px;
+  height: 5px;
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20vh 20vw 7vh;
+  padding: 5vh 1vw;
+  text-align: left;
+  font-family: PressStart2P-Regular;
+}
+
+.intro h3 {
+  margin-top: 5vh;
+}
+
+.intro p {
+  margin: 10vh 0 5vh 0;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+}
+
+.intro a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #14b8a2;
+}
+
+.intro a:hover {
+  color: #ff0022;
+}
+
+.extras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40vh 20vw 7vh;
+  font-family: PressStart2P-Regular;
+}
+
+.extras p {
+  margin-top: 50px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media all and (max-width: 820px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar .logo {
+    width: 100%;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .nav-list .list-item {
+    display: block;
+    border-top: 10px solid #ff0022;
+  }
+
+  .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
+
+  .active {
+    display: block;
+  }
+}
