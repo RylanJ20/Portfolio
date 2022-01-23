@@ -131,6 +131,25 @@ body {
   opacity: 1;
 }
 
+button {
+  background-color: #5f4bb6;
+  color: #000;
+  margin: 1vh auto;
+  padding: 1vh 2vw;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #5f4bb6;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #000;
+  color: #5f4bb6;
+  cursor: pointer;
+}
+
 @media all and (max-width: 820px) {
   .navbar {
     flex-direction: column;
