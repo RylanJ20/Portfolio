@@ -15,9 +15,9 @@
 }
 
 body {
-  background-color: #033863;
+  background-color: #86a5d9;
   background-size: cover;
-  color: #14b8a2;
+  color: #000;
 }
 
 .stick {
@@ -27,28 +27,23 @@ body {
 }
 
 .navbar {
-  background-color: #033863;
-  color: #14b8a2;
+  background-color: #5f4bb6;
+  color: #26f0f1;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: PressStart2P-Regular;
-  box-shadow: 0 0 10px 5px #ff0022;
+  box-shadow: 0 0 10px 5px #d77a61;
   z-index: 1;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #14b8a2;
-}
-
-.navbar a:visited {
-  text-decoration: none;
-  color: #14b8a2;
+  color: #26f0f1;
 }
 
 .navbar a:hover {
-  color: #ff0022;
+  color: #d77a61;
 }
 
 .primary-icon {
@@ -73,12 +68,12 @@ body {
 .menu-line {
   width: 20px;
   height: 5px;
-  background-color: #fff;
+  background-color: #26f0f1;
   margin-bottom: 4px;
 }
 
 #red {
-  color: #ff0022;
+  color: #2ff011;
 }
 
 .intro {
@@ -106,11 +101,11 @@ body {
 
 .intro a {
   text-decoration: underline;
-  color: #14b8a2;
+  color: #000;
 }
 
 .intro a:hover {
-  color: #ff0022;
+  color: #d77a61;
 }
 
 .extras {
