@@ -80,7 +80,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20vh 20vw 7vh;
+  margin-top: 10vh;
+  margin-left: 20vw;
+  margin-right: 40vw;
   padding: 5vh 1vw;
   text-align: left;
   font-family: PressStart2P-Regular;

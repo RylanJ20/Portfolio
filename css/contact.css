@@ -252,6 +252,9 @@ input[type="checkbox"]:checked + label {
   .active {
     display: block;
   }
+  .intro {
+    margin: 20vh 2vw;
+  }
 }
 @media all and (max-width: 900px) {
   .right-intro {

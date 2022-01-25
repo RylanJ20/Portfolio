@@ -175,4 +175,7 @@ body {
   .active {
     display: block;
   }
+  .intro {
+    margin: 20vh 2vw;
+  }
 }

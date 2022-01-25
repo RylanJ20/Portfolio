@@ -80,7 +80,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20vh 40vw 7vh 20vw;
+  margin-top: 10vh;
+  margin-left: 20vw;
+  margin-right: 40vw;
   padding: 5vh 1vw;
   text-align: left;
   font-family: PressStart2P-Regular;
@@ -181,5 +183,8 @@ h4 {
 
   .extras {
     margin-right: 20vw;
+  }
+  .intro {
+    margin: 20vh 2vw;
   }
 }
